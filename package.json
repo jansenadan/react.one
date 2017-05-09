@@ -1,0 +1,26 @@
+{
+  "name": "react.one",
+  "version": "0.1.0",
+  "description": "Creando una página en react desde cero",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jansenadan/react.one.git"
+  },
+  "author": "Jansen Peña",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "gulp": "^3.9.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "webpack": "^2.4.0"
+  }
+}
